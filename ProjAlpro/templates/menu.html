@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Russian Roulette</h1>
+        <p>Selamat datang di game Russian Roulette</p>
+        <img src="static/image/revol.jpg" widht="400" height="300">        
+        <form action="/pilihkoin" method="POST">
+            <br>
+           <h3>Masukan Peluru (Pilih diantara 1 sampai 6)</h3>
+           <input type="text" id="jumlahpeluru" name="jumlahpeluru"><br>
+        </p>
+           <input class="tombol" type="submit" value="Mulai">
+        </form> 
+        <p>Tes keberuntungan anda dengan game ini.</p>
+    </div>
+</body>
+</html>

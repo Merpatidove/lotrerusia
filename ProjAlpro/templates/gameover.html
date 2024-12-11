@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>GAME OVER</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>ANDA MATI</h1>
+        <p>{{ result }}</p>
+        <img src="static/image/mati.jpg" widht="400" height="300">
+        <p></p>
+        <a class="tombol" href="/">Main lagi?</a>
+    </div> 
+    <audio controls autoplay="true" src="static/audio/shoot.mp3">
+    <audio controls autoplay="true" src="static/audio/death.mp3">
+</body>
+</html>

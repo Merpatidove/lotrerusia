@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Game Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat!</h1>
+        <p>{{ result }}</p>
+        <img src="static/image/cihuy.jpg" widht="400" height="300">
+        <p></p>
+        <a class="tombol" href="/bot_shoot">Giliran bot</a>
+    </div>
+    <audio controls autoplay src="static/audio/clik.mp3">
+</body>
+</html>

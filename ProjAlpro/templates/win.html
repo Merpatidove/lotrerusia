@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>KAMU MENANG!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat anda menang!</h1>
+        <p>{{ result }}</p>
+        <img src="static/image/gampang.jpg" widht="400" height="300">
+        <p></p>
+        <a class="tombol" href="/">Main lagi?</a>
+    </div>
+    <audio controls autoplay src="static/audio/win.mp3">
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Russian Roulette </h1>
+        <p>Silahkan pilih sisi koin untuk menentukan giliran</p>
+        <img src="static/image/koinloop.gif" widht="400" height="300">        
+        <form action="/menu" method="POST">
+            <br>
+                <button class="tombol" margin-left=15px name="koin" value="1">Kepala</button>
+                <button class="tombol" name="koin" value="0">Api</button>    
+            <br>
+        </form> 
+    </div>
+</body>
